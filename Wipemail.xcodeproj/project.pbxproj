@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6FC805821D55C58007E39B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FC805721D55C58007E39B2 /* AppDelegate.m */; };
+		E6FC805B21D55C58007E39B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FC805A21D55C58007E39B2 /* ViewController.m */; };
+		E6FC805E21D55C58007E39B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FC805C21D55C58007E39B2 /* Main.storyboard */; };
+		E6FC806121D55C58007E39B2 /* Wipemail.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E6FC805F21D55C58007E39B2 /* Wipemail.xcdatamodeld */; };
+		E6FC806321D55C59007E39B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6FC806221D55C59007E39B2 /* Assets.xcassets */; };
+		E6FC806621D55C59007E39B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FC806421D55C59007E39B2 /* LaunchScreen.storyboard */; };
+		E6FC806921D55C59007E39B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FC806821D55C59007E39B2 /* main.m */; };
+		E6FC807321D55C59007E39B2 /* WipemailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FC807221D55C59007E39B2 /* WipemailTests.m */; };
+		E6FC807E21D55C59007E39B2 /* WipemailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FC807D21D55C59007E39B2 /* WipemailUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6FC806F21D55C59007E39B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6FC804B21D55C58007E39B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6FC805221D55C58007E39B2;
+			remoteInfo = Wipemail;
+		};
+		E6FC807A21D55C59007E39B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6FC804B21D55C58007E39B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6FC805221D55C58007E39B2;
+			remoteInfo = Wipemail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6FC805321D55C58007E39B2 /* Wipemail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wipemail.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FC805621D55C58007E39B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6FC805721D55C58007E39B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6FC805921D55C58007E39B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E6FC805A21D55C58007E39B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E6FC805D21D55C58007E39B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6FC806021D55C58007E39B2 /* Wipemail.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wipemail.xcdatamodel; sourceTree = "<group>"; };
+		E6FC806221D55C59007E39B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6FC806521D55C59007E39B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6FC806721D55C59007E39B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6FC806821D55C59007E39B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6FC806E21D55C59007E39B2 /* WipemailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WipemailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FC807221D55C59007E39B2 /* WipemailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WipemailTests.m; sourceTree = "<group>"; };
+		E6FC807421D55C59007E39B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6FC807921D55C59007E39B2 /* WipemailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WipemailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6FC807D21D55C59007E39B2 /* WipemailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WipemailUITests.m; sourceTree = "<group>"; };
+		E6FC807F21D55C59007E39B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6FC805021D55C58007E39B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FC806B21D55C59007E39B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FC807621D55C59007E39B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6FC804A21D55C58007E39B2 = {
+			isa = PBXGroup;
+			children = (
+				E6FC805521D55C58007E39B2 /* Wipemail */,
+				E6FC807121D55C59007E39B2 /* WipemailTests */,
+				E6FC807C21D55C59007E39B2 /* WipemailUITests */,
+				E6FC805421D55C58007E39B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6FC805421D55C58007E39B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6FC805321D55C58007E39B2 /* Wipemail.app */,
+				E6FC806E21D55C59007E39B2 /* WipemailTests.xctest */,
+				E6FC807921D55C59007E39B2 /* WipemailUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6FC805521D55C58007E39B2 /* Wipemail */ = {
+			isa = PBXGroup;
+			children = (
+				E6FC805621D55C58007E39B2 /* AppDelegate.h */,
+				E6FC805721D55C58007E39B2 /* AppDelegate.m */,
+				E6FC805921D55C58007E39B2 /* ViewController.h */,
+				E6FC805A21D55C58007E39B2 /* ViewController.m */,
+				E6FC805C21D55C58007E39B2 /* Main.storyboard */,
+				E6FC806221D55C59007E39B2 /* Assets.xcassets */,
+				E6FC806421D55C59007E39B2 /* LaunchScreen.storyboard */,
+				E6FC806721D55C59007E39B2 /* Info.plist */,
+				E6FC806821D55C59007E39B2 /* main.m */,
+				E6FC805F21D55C58007E39B2 /* Wipemail.xcdatamodeld */,
+			);
+			path = Wipemail;
+			sourceTree = "<group>";
+		};
+		E6FC807121D55C59007E39B2 /* WipemailTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6FC807221D55C59007E39B2 /* WipemailTests.m */,
+				E6FC807421D55C59007E39B2 /* Info.plist */,
+			);
+			path = WipemailTests;
+			sourceTree = "<group>";
+		};
+		E6FC807C21D55C59007E39B2 /* WipemailUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6FC807D21D55C59007E39B2 /* WipemailUITests.m */,
+				E6FC807F21D55C59007E39B2 /* Info.plist */,
+			);
+			path = WipemailUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6FC805221D55C58007E39B2 /* Wipemail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6FC808221D55C59007E39B2 /* Build configuration list for PBXNativeTarget "Wipemail" */;
+			buildPhases = (
+				E6FC804F21D55C58007E39B2 /* Sources */,
+				E6FC805021D55C58007E39B2 /* Frameworks */,
+				E6FC805121D55C58007E39B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wipemail;
+			productName = Wipemail;
+			productReference = E6FC805321D55C58007E39B2 /* Wipemail.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6FC806D21D55C59007E39B2 /* WipemailTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6FC808521D55C59007E39B2 /* Build configuration list for PBXNativeTarget "WipemailTests" */;
+			buildPhases = (
+				E6FC806A21D55C59007E39B2 /* Sources */,
+				E6FC806B21D55C59007E39B2 /* Frameworks */,
+				E6FC806C21D55C59007E39B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6FC807021D55C59007E39B2 /* PBXTargetDependency */,
+			);
+			name = WipemailTests;
+			productName = WipemailTests;
+			productReference = E6FC806E21D55C59007E39B2 /* WipemailTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6FC807821D55C59007E39B2 /* WipemailUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6FC808821D55C59007E39B2 /* Build configuration list for PBXNativeTarget "WipemailUITests" */;
+			buildPhases = (
+				E6FC807521D55C59007E39B2 /* Sources */,
+				E6FC807621D55C59007E39B2 /* Frameworks */,
+				E6FC807721D55C59007E39B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6FC807B21D55C59007E39B2 /* PBXTargetDependency */,
+			);
+			name = WipemailUITests;
+			productName = WipemailUITests;
+			productReference = E6FC807921D55C59007E39B2 /* WipemailUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6FC804B21D55C58007E39B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Vikram Grewal";
+				TargetAttributes = {
+					E6FC805221D55C58007E39B2 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					E6FC806D21D55C59007E39B2 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = E6FC805221D55C58007E39B2;
+					};
+					E6FC807821D55C59007E39B2 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = E6FC805221D55C58007E39B2;
+					};
+				};
+			};
+			buildConfigurationList = E6FC804E21D55C58007E39B2 /* Build configuration list for PBXProject "Wipemail" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6FC804A21D55C58007E39B2;
+			productRefGroup = E6FC805421D55C58007E39B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6FC805221D55C58007E39B2 /* Wipemail */,
+				E6FC806D21D55C59007E39B2 /* WipemailTests */,
+				E6FC807821D55C59007E39B2 /* WipemailUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6FC805121D55C58007E39B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FC806621D55C59007E39B2 /* LaunchScreen.storyboard in Resources */,
+				E6FC806321D55C59007E39B2 /* Assets.xcassets in Resources */,
+				E6FC805E21D55C58007E39B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FC806C21D55C59007E39B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FC807721D55C59007E39B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6FC804F21D55C58007E39B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FC806121D55C58007E39B2 /* Wipemail.xcdatamodeld in Sources */,
+				E6FC805B21D55C58007E39B2 /* ViewController.m in Sources */,
+				E6FC806921D55C59007E39B2 /* main.m in Sources */,
+				E6FC805821D55C58007E39B2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FC806A21D55C59007E39B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FC807321D55C59007E39B2 /* WipemailTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FC807521D55C59007E39B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FC807E21D55C59007E39B2 /* WipemailUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6FC807021D55C59007E39B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6FC805221D55C58007E39B2 /* Wipemail */;
+			targetProxy = E6FC806F21D55C59007E39B2 /* PBXContainerItemProxy */;
+		};
+		E6FC807B21D55C59007E39B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6FC805221D55C58007E39B2 /* Wipemail */;
+			targetProxy = E6FC807A21D55C59007E39B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6FC805C21D55C58007E39B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6FC805D21D55C58007E39B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6FC806421D55C59007E39B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6FC806521D55C59007E39B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6FC808021D55C59007E39B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6FC808121D55C59007E39B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6FC808321D55C59007E39B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7NV2676P8;
+				INFOPLIST_FILE = Wipemail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikramgrewal.Wipemail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6FC808421D55C59007E39B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7NV2676P8;
+				INFOPLIST_FILE = Wipemail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikramgrewal.Wipemail;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E6FC808621D55C59007E39B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7NV2676P8;
+				INFOPLIST_FILE = WipemailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikramgrewal.WipemailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wipemail.app/Wipemail";
+			};
+			name = Debug;
+		};
+		E6FC808721D55C59007E39B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7NV2676P8;
+				INFOPLIST_FILE = WipemailTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikramgrewal.WipemailTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wipemail.app/Wipemail";
+			};
+			name = Release;
+		};
+		E6FC808921D55C59007E39B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7NV2676P8;
+				INFOPLIST_FILE = WipemailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikramgrewal.WipemailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wipemail;
+			};
+			name = Debug;
+		};
+		E6FC808A21D55C59007E39B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7NV2676P8;
+				INFOPLIST_FILE = WipemailUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vikramgrewal.WipemailUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wipemail;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6FC804E21D55C58007E39B2 /* Build configuration list for PBXProject "Wipemail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FC808021D55C59007E39B2 /* Debug */,
+				E6FC808121D55C59007E39B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6FC808221D55C59007E39B2 /* Build configuration list for PBXNativeTarget "Wipemail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FC808321D55C59007E39B2 /* Debug */,
+				E6FC808421D55C59007E39B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6FC808521D55C59007E39B2 /* Build configuration list for PBXNativeTarget "WipemailTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FC808621D55C59007E39B2 /* Debug */,
+				E6FC808721D55C59007E39B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6FC808821D55C59007E39B2 /* Build configuration list for PBXNativeTarget "WipemailUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6FC808921D55C59007E39B2 /* Debug */,
+				E6FC808A21D55C59007E39B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E6FC805F21D55C58007E39B2 /* Wipemail.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E6FC806021D55C58007E39B2 /* Wipemail.xcdatamodel */,
+			);
+			currentVersion = E6FC806021D55C58007E39B2 /* Wipemail.xcdatamodel */;
+			path = Wipemail.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E6FC804B21D55C58007E39B2 /* Project object */;
+}
