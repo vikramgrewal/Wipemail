@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9AF0460BE262961B581011F4 /* libPods-WipemailTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C2EEC44078F042B7AF9F74 /* libPods-WipemailTests.a */; };
+		ADC937F3C7369BA8AA79F715 /* libPods-Wipemail.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3E56342A6E1C6EA2D59884C /* libPods-Wipemail.a */; };
+		B08E0C414DEA5EF522D566F3 /* libPods-WipemailUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F4B26BF2D998C9127FB67D3 /* libPods-WipemailUITests.a */; };
 		E6FC805821D55C58007E39B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FC805721D55C58007E39B2 /* AppDelegate.m */; };
 		E6FC805B21D55C58007E39B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FC805A21D55C58007E39B2 /* ViewController.m */; };
 		E6FC805E21D55C58007E39B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6FC805C21D55C58007E39B2 /* Main.storyboard */; };
@@ -36,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F4B26BF2D998C9127FB67D3 /* libPods-WipemailUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WipemailUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C2EEC44078F042B7AF9F74 /* libPods-WipemailTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WipemailTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		534B163A2CD40504CB623159 /* Pods-Wipemail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wipemail.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wipemail/Pods-Wipemail.release.xcconfig"; sourceTree = "<group>"; };
+		6B46E715354A57D073151436 /* Pods-WipemailTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WipemailTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WipemailTests/Pods-WipemailTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6DBB2BC3E527CCA91B442A70 /* Pods-WipemailUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WipemailUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WipemailUITests/Pods-WipemailUITests.release.xcconfig"; sourceTree = "<group>"; };
+		79CF17B46549B7587BFB8C54 /* Pods-WipemailUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WipemailUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WipemailUITests/Pods-WipemailUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CA269B4EB0E61EE1A892ADF /* Pods-WipemailTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WipemailTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WipemailTests/Pods-WipemailTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3E56342A6E1C6EA2D59884C /* libPods-Wipemail.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Wipemail.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FC805321D55C58007E39B2 /* Wipemail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wipemail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FC805621D55C58007E39B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6FC805721D55C58007E39B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +64,7 @@
 		E6FC807921D55C59007E39B2 /* WipemailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WipemailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6FC807D21D55C59007E39B2 /* WipemailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WipemailUITests.m; sourceTree = "<group>"; };
 		E6FC807F21D55C59007E39B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF309A3FF57E2F35AB615114 /* Pods-Wipemail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wipemail.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wipemail/Pods-Wipemail.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADC937F3C7369BA8AA79F715 /* libPods-Wipemail.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AF0460BE262961B581011F4 /* libPods-WipemailTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08E0C414DEA5EF522D566F3 /* libPods-WipemailUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		787961E61FBC209F6B59F9DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3E56342A6E1C6EA2D59884C /* libPods-Wipemail.a */,
+				38C2EEC44078F042B7AF9F74 /* libPods-WipemailTests.a */,
+				2F4B26BF2D998C9127FB67D3 /* libPods-WipemailUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E6FC804A21D55C58007E39B2 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +112,8 @@
 				E6FC807121D55C59007E39B2 /* WipemailTests */,
 				E6FC807C21D55C59007E39B2 /* WipemailUITests */,
 				E6FC805421D55C58007E39B2 /* Products */,
+				EEC9DFCEB81ED2C96A909735 /* Pods */,
+				787961E61FBC209F6B59F9DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +162,19 @@
 			path = WipemailUITests;
 			sourceTree = "<group>";
 		};
+		EEC9DFCEB81ED2C96A909735 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF309A3FF57E2F35AB615114 /* Pods-Wipemail.debug.xcconfig */,
+				534B163A2CD40504CB623159 /* Pods-Wipemail.release.xcconfig */,
+				6B46E715354A57D073151436 /* Pods-WipemailTests.debug.xcconfig */,
+				9CA269B4EB0E61EE1A892ADF /* Pods-WipemailTests.release.xcconfig */,
+				79CF17B46549B7587BFB8C54 /* Pods-WipemailUITests.debug.xcconfig */,
+				6DBB2BC3E527CCA91B442A70 /* Pods-WipemailUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6FC808221D55C59007E39B2 /* Build configuration list for PBXNativeTarget "Wipemail" */;
 			buildPhases = (
+				7D9E664E2FB93FBBBB90EBCD /* [CP] Check Pods Manifest.lock */,
 				E6FC804F21D55C58007E39B2 /* Sources */,
 				E6FC805021D55C58007E39B2 /* Frameworks */,
 				E6FC805121D55C58007E39B2 /* Resources */,
+				E3FAE541F89D25F12BE63889 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -159,6 +201,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6FC808521D55C59007E39B2 /* Build configuration list for PBXNativeTarget "WipemailTests" */;
 			buildPhases = (
+				4BC09392CFB6EB2944FAA48E /* [CP] Check Pods Manifest.lock */,
 				E6FC806A21D55C59007E39B2 /* Sources */,
 				E6FC806B21D55C59007E39B2 /* Frameworks */,
 				E6FC806C21D55C59007E39B2 /* Resources */,
@@ -177,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6FC808821D55C59007E39B2 /* Build configuration list for PBXNativeTarget "WipemailUITests" */;
 			buildPhases = (
+				DFD586E9BF3C4B1F415D77EA /* [CP] Check Pods Manifest.lock */,
 				E6FC807521D55C59007E39B2 /* Sources */,
 				E6FC807621D55C59007E39B2 /* Frameworks */,
 				E6FC807721D55C59007E39B2 /* Resources */,
@@ -259,6 +303,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BC09392CFB6EB2944FAA48E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WipemailTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D9E664E2FB93FBBBB90EBCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wipemail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFD586E9BF3C4B1F415D77EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WipemailUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3FAE541F89D25F12BE63889 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wipemail/Pods-Wipemail-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wipemail/Pods-Wipemail-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E6FC804F21D55C58007E39B2 /* Sources */ = {
@@ -437,11 +556,13 @@
 		};
 		E6FC808321D55C59007E39B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF309A3FF57E2F35AB615114 /* Pods-Wipemail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C7NV2676P8;
 				INFOPLIST_FILE = Wipemail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +575,13 @@
 		};
 		E6FC808421D55C59007E39B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 534B163A2CD40504CB623159 /* Pods-Wipemail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C7NV2676P8;
 				INFOPLIST_FILE = Wipemail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +594,7 @@
 		};
 		E6FC808621D55C59007E39B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B46E715354A57D073151436 /* Pods-WipemailTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +614,7 @@
 		};
 		E6FC808721D55C59007E39B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA269B4EB0E61EE1A892ADF /* Pods-WipemailTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +634,7 @@
 		};
 		E6FC808921D55C59007E39B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79CF17B46549B7587BFB8C54 /* Pods-WipemailUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C7NV2676P8;
@@ -527,6 +653,7 @@
 		};
 		E6FC808A21D55C59007E39B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DBB2BC3E527CCA91B442A70 /* Pods-WipemailUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C7NV2676P8;
